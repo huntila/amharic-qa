@@ -72,3 +72,7 @@ Since the AmQA dataset contains a set of contexts along with question-answer pai
 
 ### The full paper can be found [here](https://arxiv.org/abs/2303.03290).
 #### The dataset is also available on Hugging Face [here](https://huggingface.co/datasets/dagim/amharic-qa).
+
+To compute Exact Match(EM) and F1 Scores run this command: 
+```python eval.py modified_test_data.json predictions.json -o evaluation_result.json```
+eval.py is [the official evaluation script for SQUAD v2](https://github.com/white127/SQUAD-2.0-bidaf/blob/master/evaluate-v2.0.py) 
