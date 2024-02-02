@@ -75,4 +75,4 @@ Since the AmQA dataset contains a set of contexts along with question-answer pai
 
 To compute Exact Match(EM) and F1 Scores run this command: 
 ```python eval.py modified_test_data.json predictions.json -o evaluation_result.json```
-eval.py is [the official evaluation script for SQUAD v2](https://github.com/white127/SQUAD-2.0-bidaf/blob/master/evaluate-v2.0.py) 
+eval.py is [the official evaluation script for SQUAD v2](https://github.com/white127/SQUAD-2.0-bidaf/blob/master/evaluate-v2.0.py).
