@@ -32,4 +32,4 @@ def haystack_squadv2_to_squadv2(haystack_squadv2_file, output_file):
     print('Successfully modified!')
 
 
-haystack_squadv2_to_squadv2('test_data.json', 'modified_test_data.json')
+haystack_squadv2_to_squadv2('amh-quad-data/test_data.json', 'modified_test_data.json')
